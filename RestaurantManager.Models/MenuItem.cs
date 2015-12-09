@@ -15,5 +15,10 @@ namespace RestaurantManager.Models
         {
             return base.ToString();
         }
+
+        public string TitlePriceConcat
+        {
+            get { return $"{this.Title} - ${Price}"; }
+        }
     }
 }

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace RestaurantManager.Models
@@ -42,7 +41,7 @@ namespace RestaurantManager.Models
             this.Orders = new List<Order>
             {
                 new Order { Complete = false, Expedite = true, SpecialRequests = "Allergic to Shellfish", Table = this.Tables.Last(), Items = new List<MenuItem> { this.StandardMenuItems.First() } },
-                new Order { Complete = false, Expedite = false, SpecialRequests = String.Empty, Table = this.Tables.Last(), Items = new List<MenuItem> { this.StandardMenuItems.Last(), this.StandardMenuItems.First() } },
+                new Order { Complete = false, Expedite = false, SpecialRequests = "Another fish template", Table = this.Tables.Last(), Items = new List<MenuItem> { this.StandardMenuItems.Last(), this.StandardMenuItems.First() } },
             };
         }
     }

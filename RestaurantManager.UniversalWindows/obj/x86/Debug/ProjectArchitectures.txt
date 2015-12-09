@@ -1,2 +1,2 @@
-C:\AREA DE TRABALHO\GitHubWorkplace\hwstart\RestaurantManager.Models\RestaurantManager.Models.csproj;neutral
-C:\AREA DE TRABALHO\GitHubWorkplace\hwstart\RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.csproj;x86
+C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Models\RestaurantManager.Models.csproj;neutral
+C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.csproj;x86

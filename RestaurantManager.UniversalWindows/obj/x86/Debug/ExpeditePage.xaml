@@ -21,11 +21,36 @@
     </Page.TopAppBar>
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
-            <RowDefinition Height="0.05*"/>
-            <RowDefinition Height="0.85*"/>
-            <RowDefinition Height="0.10*"/>
+            <RowDefinition Height="0.05*" />
+            <RowDefinition Height="0.85*" />
+            <RowDefinition Height="0.10*" />
         </Grid.RowDefinitions>
         <GridView Grid.Row="1" ItemsSource="{Binding OrderItems}">
+            <GridView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <ItemsWrapGrid Orientation="Horizontal"></ItemsWrapGrid>
+                </ItemsPanelTemplate>
+            </GridView.ItemsPanel>
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Vertical" Width="300" Height="350">
+                        <TextBlock HorizontalAlignment="Left" Style="{StaticResource SubheaderTextBlockStyle}" Margin="10" Text="{Binding SpecialRequests}" />
+
+                        <ScrollViewer Height="150">
+                            <ListBox Margin="0,0,25,10" Padding="0" ItemsSource="{Binding Items}">
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal" MinHeight="20">
+                                            <TextBlock Text="{Binding TitlePriceConcat}" />
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+                        </ScrollViewer>
+                        <Button Content="Delete" />
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
         </GridView>
         <Button Content="Clear All Orders" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" />
     </Grid>
