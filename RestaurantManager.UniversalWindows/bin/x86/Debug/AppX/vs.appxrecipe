@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-12-09T14:17:37.878</Modified>
+      <Modified>2015-12-09T14:25:15.776</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -49,7 +49,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\entrypoint\RestaurantManager.UniversalWindows.exe">
       <PackagePath>entrypoint\RestaurantManager.UniversalWindows.exe</PackagePath>
-      <Modified>2015-12-09T14:17:36.040</Modified>
+      <Modified>2015-12-09T14:25:15.127</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -73,7 +73,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurantManager.Models.dll">
       <PackagePath>RestaurantManager.Models.dll</PackagePath>
-      <Modified>2015-12-09T14:02:30.122</Modified>
+      <Modified>2015-12-09T14:25:12.908</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurantManager.Models\Properties\RestaurantManager.Models.rd.xml">
       <PackagePath>RestaurantManager.Models\Properties\RestaurantManager.Models.rd.xml</PackagePath>
@@ -81,7 +81,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurantManager.UniversalWindows.exe">
       <PackagePath>RestaurantManager.UniversalWindows.exe</PackagePath>
-      <Modified>2015-12-09T14:17:37.875</Modified>
+      <Modified>2015-12-09T14:25:15.773</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurantManager.UniversalWindows.xr.xml">
       <PackagePath>RestaurantManager.UniversalWindows.xr.xml</PackagePath>
