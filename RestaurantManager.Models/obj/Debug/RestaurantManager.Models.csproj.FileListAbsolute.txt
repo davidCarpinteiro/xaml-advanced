@@ -48,3 +48,19 @@ C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Models\obj\D
 C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Models\obj\Debug\qualifiers.txt
 C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Models\obj\Debug\qualifiers.txt.intermediate
 C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Models\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\GitWorkspace\xaml-advanced\xaml-advanced\RestaurantManager.Models\bin\Debug\RestaurantManager.Models.dll
+E:\GitWorkspace\xaml-advanced\xaml-advanced\RestaurantManager.Models\bin\Debug\RestaurantManager.Models.pdb
+E:\GitWorkspace\xaml-advanced\xaml-advanced\RestaurantManager.Models\bin\Debug\RestaurantManager.Models.pri
+E:\GitWorkspace\xaml-advanced\xaml-advanced\RestaurantManager.Models\obj\Debug\RestaurantManager.Models.dll
+E:\GitWorkspace\xaml-advanced\xaml-advanced\RestaurantManager.Models\obj\Debug\RestaurantManager.Models.pdb
+E:\GitWorkspace\xaml-advanced\xaml-advanced\RestaurantManager.Models\obj\Debug\priconfig.xml
+E:\GitWorkspace\xaml-advanced\xaml-advanced\RestaurantManager.Models\obj\Debug\priconfig.xml.intermediate
+E:\GitWorkspace\xaml-advanced\xaml-advanced\RestaurantManager.Models\obj\Debug\layout.resfiles
+E:\GitWorkspace\xaml-advanced\xaml-advanced\RestaurantManager.Models\obj\Debug\layout.resfiles.intermediate
+E:\GitWorkspace\xaml-advanced\xaml-advanced\RestaurantManager.Models\obj\Debug\resources.resfiles
+E:\GitWorkspace\xaml-advanced\xaml-advanced\RestaurantManager.Models\obj\Debug\resources.resfiles.intermediate
+E:\GitWorkspace\xaml-advanced\xaml-advanced\RestaurantManager.Models\obj\Debug\pri.resfiles
+E:\GitWorkspace\xaml-advanced\xaml-advanced\RestaurantManager.Models\obj\Debug\pri.resfiles.intermediate
+E:\GitWorkspace\xaml-advanced\xaml-advanced\RestaurantManager.Models\obj\Debug\qualifiers.txt
+E:\GitWorkspace\xaml-advanced\xaml-advanced\RestaurantManager.Models\obj\Debug\qualifiers.txt.intermediate
+E:\GitWorkspace\xaml-advanced\xaml-advanced\RestaurantManager.Models\obj\Debug\MultipleQualifiersPerDimensionFound.txt

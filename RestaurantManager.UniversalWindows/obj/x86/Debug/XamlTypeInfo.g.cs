@@ -132,7 +132,7 @@ namespace RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[19];
+            _typeNameTable = new string[40];
             _typeNameTable[0] = "RestaurantManager.Models.ExpediteDataManager";
             _typeNameTable[1] = "RestaurantManager.Models.DataManager";
             _typeNameTable[2] = "Object";
@@ -146,14 +146,35 @@ namespace RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_
             _typeNameTable[10] = "System.ValueType";
             _typeNameTable[11] = "RestaurantManager.Models.Table";
             _typeNameTable[12] = "Boolean";
-            _typeNameTable[13] = "RestaurantManager.UniversalWindows.ExpeditePage";
-            _typeNameTable[14] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[15] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[16] = "RestaurantManager.UniversalWindows.MainPage";
-            _typeNameTable[17] = "RestaurantManager.Models.OrderDataManager";
-            _typeNameTable[18] = "RestaurantManager.UniversalWindows.OrderPage";
+            _typeNameTable[13] = "RestaurantManager.Extensions.BooleanToColorConverter";
+            _typeNameTable[14] = "RestaurantManager.UniversalWindows.ExpeditePage";
+            _typeNameTable[15] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[16] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[17] = "Microsoft.Xaml.Interactivity.Interaction";
+            _typeNameTable[18] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
+            _typeNameTable[19] = "Windows.UI.Xaml.DependencyObjectCollection";
+            _typeNameTable[20] = "Windows.UI.Xaml.DependencyObject";
+            _typeNameTable[21] = "RestaurantManager.Extensions.RightClickMessageDialogBehavior";
+            _typeNameTable[22] = "RestaurantManager.UniversalWindows.MainPage";
+            _typeNameTable[23] = "RestaurantManager.Models.OrderDataManager";
+            _typeNameTable[24] = "RestaurantManager.UniversalWindows.OrderPage";
+            _typeNameTable[25] = "Microsoft.Xaml.Interactions.Media.ControlStoryboardAction";
+            _typeNameTable[26] = "Microsoft.Xaml.Interactions.Media.ControlStoryboardOption";
+            _typeNameTable[27] = "System.Enum";
+            _typeNameTable[28] = "Windows.UI.Xaml.Media.Animation.Storyboard";
+            _typeNameTable[29] = "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior";
+            _typeNameTable[30] = "Microsoft.Xaml.Interactivity.ActionCollection";
+            _typeNameTable[31] = "Microsoft.Xaml.Interactions.Core.GoToStateAction";
+            _typeNameTable[32] = "Windows.UI.Xaml.FrameworkElement";
+            _typeNameTable[33] = "Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior";
+            _typeNameTable[34] = "Microsoft.Xaml.Interactions.Core.InvokeCommandAction";
+            _typeNameTable[35] = "Windows.UI.Xaml.Data.IValueConverter";
+            _typeNameTable[36] = "System.Windows.Input.ICommand";
+            _typeNameTable[37] = "Microsoft.Xaml.Interactions.Core.NavigateToPageAction";
+            _typeNameTable[38] = "Microsoft.Xaml.Interactions.Media.PlaySoundAction";
+            _typeNameTable[39] = "Double";
 
-            _typeTable = new global::System.Type[19];
+            _typeTable = new global::System.Type[40];
             _typeTable[0] = typeof(global::RestaurantManager.Models.ExpediteDataManager);
             _typeTable[1] = typeof(global::RestaurantManager.Models.DataManager);
             _typeTable[2] = typeof(global::System.Object);
@@ -167,12 +188,33 @@ namespace RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_
             _typeTable[10] = typeof(global::System.ValueType);
             _typeTable[11] = typeof(global::RestaurantManager.Models.Table);
             _typeTable[12] = typeof(global::System.Boolean);
-            _typeTable[13] = typeof(global::RestaurantManager.UniversalWindows.ExpeditePage);
-            _typeTable[14] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[15] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[16] = typeof(global::RestaurantManager.UniversalWindows.MainPage);
-            _typeTable[17] = typeof(global::RestaurantManager.Models.OrderDataManager);
-            _typeTable[18] = typeof(global::RestaurantManager.UniversalWindows.OrderPage);
+            _typeTable[13] = typeof(global::RestaurantManager.Extensions.BooleanToColorConverter);
+            _typeTable[14] = typeof(global::RestaurantManager.UniversalWindows.ExpeditePage);
+            _typeTable[15] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[16] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[17] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
+            _typeTable[18] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
+            _typeTable[19] = typeof(global::Windows.UI.Xaml.DependencyObjectCollection);
+            _typeTable[20] = typeof(global::Windows.UI.Xaml.DependencyObject);
+            _typeTable[21] = typeof(global::RestaurantManager.Extensions.RightClickMessageDialogBehavior);
+            _typeTable[22] = typeof(global::RestaurantManager.UniversalWindows.MainPage);
+            _typeTable[23] = typeof(global::RestaurantManager.Models.OrderDataManager);
+            _typeTable[24] = typeof(global::RestaurantManager.UniversalWindows.OrderPage);
+            _typeTable[25] = typeof(global::Microsoft.Xaml.Interactions.Media.ControlStoryboardAction);
+            _typeTable[26] = typeof(global::Microsoft.Xaml.Interactions.Media.ControlStoryboardOption);
+            _typeTable[27] = typeof(global::System.Enum);
+            _typeTable[28] = typeof(global::Windows.UI.Xaml.Media.Animation.Storyboard);
+            _typeTable[29] = typeof(global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior);
+            _typeTable[30] = typeof(global::Microsoft.Xaml.Interactivity.ActionCollection);
+            _typeTable[31] = typeof(global::Microsoft.Xaml.Interactions.Core.GoToStateAction);
+            _typeTable[32] = typeof(global::Windows.UI.Xaml.FrameworkElement);
+            _typeTable[33] = typeof(global::Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior);
+            _typeTable[34] = typeof(global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction);
+            _typeTable[35] = typeof(global::Windows.UI.Xaml.Data.IValueConverter);
+            _typeTable[36] = typeof(global::System.Windows.Input.ICommand);
+            _typeTable[37] = typeof(global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction);
+            _typeTable[38] = typeof(global::Microsoft.Xaml.Interactions.Media.PlaySoundAction);
+            _typeTable[39] = typeof(global::System.Double);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -213,10 +255,21 @@ namespace RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_
         private object Activate_7_List() { return new global::System.Collections.Generic.List<global::RestaurantManager.Models.MenuItem>(); }
         private object Activate_8_MenuItem() { return new global::RestaurantManager.Models.MenuItem(); }
         private object Activate_11_Table() { return new global::RestaurantManager.Models.Table(); }
-        private object Activate_13_ExpeditePage() { return new global::RestaurantManager.UniversalWindows.ExpeditePage(); }
-        private object Activate_16_MainPage() { return new global::RestaurantManager.UniversalWindows.MainPage(); }
-        private object Activate_17_OrderDataManager() { return new global::RestaurantManager.Models.OrderDataManager(); }
-        private object Activate_18_OrderPage() { return new global::RestaurantManager.UniversalWindows.OrderPage(); }
+        private object Activate_13_BooleanToColorConverter() { return new global::RestaurantManager.Extensions.BooleanToColorConverter(); }
+        private object Activate_14_ExpeditePage() { return new global::RestaurantManager.UniversalWindows.ExpeditePage(); }
+        private object Activate_18_BehaviorCollection() { return new global::Microsoft.Xaml.Interactivity.BehaviorCollection(); }
+        private object Activate_21_RightClickMessageDialogBehavior() { return new global::RestaurantManager.Extensions.RightClickMessageDialogBehavior(); }
+        private object Activate_22_MainPage() { return new global::RestaurantManager.UniversalWindows.MainPage(); }
+        private object Activate_23_OrderDataManager() { return new global::RestaurantManager.Models.OrderDataManager(); }
+        private object Activate_24_OrderPage() { return new global::RestaurantManager.UniversalWindows.OrderPage(); }
+        private object Activate_25_ControlStoryboardAction() { return new global::Microsoft.Xaml.Interactions.Media.ControlStoryboardAction(); }
+        private object Activate_29_EventTriggerBehavior() { return new global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior(); }
+        private object Activate_30_ActionCollection() { return new global::Microsoft.Xaml.Interactivity.ActionCollection(); }
+        private object Activate_31_GoToStateAction() { return new global::Microsoft.Xaml.Interactions.Core.GoToStateAction(); }
+        private object Activate_33_IncrementalUpdateBehavior() { return new global::Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior(); }
+        private object Activate_34_InvokeCommandAction() { return new global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction(); }
+        private object Activate_37_NavigateToPageAction() { return new global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction(); }
+        private object Activate_38_PlaySoundAction() { return new global::Microsoft.Xaml.Interactions.Media.PlaySoundAction(); }
         private void VectorAdd_3_List(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::RestaurantManager.Models.Order>)instance;
@@ -227,6 +280,18 @@ namespace RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_
         {
             var collection = (global::System.Collections.Generic.ICollection<global::RestaurantManager.Models.MenuItem>)instance;
             var newItem = (global::RestaurantManager.Models.MenuItem)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_18_BehaviorCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.DependencyObject>)instance;
+            var newItem = (global::Windows.UI.Xaml.DependencyObject)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_30_ActionCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.DependencyObject>)instance;
+            var newItem = (global::Windows.UI.Xaml.DependencyObject)item;
             collection.Add(newItem);
         }
 
@@ -321,41 +386,193 @@ namespace RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_
                 xamlType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 13:   //  RestaurantManager.UniversalWindows.ExpeditePage
+            case 13:   //  RestaurantManager.Extensions.BooleanToColorConverter
+                userType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_13_BooleanToColorConverter;
+                xamlType = userType;
+                break;
+
+            case 14:   //  RestaurantManager.UniversalWindows.ExpeditePage
                 userType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_13_ExpeditePage;
+                userType.Activator = Activate_14_ExpeditePage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 14:   //  Windows.UI.Xaml.Controls.Page
+            case 15:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 15:   //  Windows.UI.Xaml.Controls.UserControl
+            case 16:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 16:   //  RestaurantManager.UniversalWindows.MainPage
+            case 17:   //  Microsoft.Xaml.Interactivity.Interaction
+                userType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.AddMemberName("Behaviors");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 18:   //  Microsoft.Xaml.Interactivity.BehaviorCollection
+                userType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObjectCollection"));
+                userType.CollectionAdd = VectorAdd_18_BehaviorCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 19:   //  Windows.UI.Xaml.DependencyObjectCollection
+                xamlType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 20:   //  Windows.UI.Xaml.DependencyObject
+                xamlType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 21:   //  RestaurantManager.Extensions.RightClickMessageDialogBehavior
+                userType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_21_RightClickMessageDialogBehavior;
+                userType.AddMemberName("Message");
+                userType.AddMemberName("Title");
+                userType.AddMemberName("AssociatedObject");
+                xamlType = userType;
+                break;
+
+            case 22:   //  RestaurantManager.UniversalWindows.MainPage
                 userType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_16_MainPage;
+                userType.Activator = Activate_22_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 17:   //  RestaurantManager.Models.OrderDataManager
+            case 23:   //  RestaurantManager.Models.OrderDataManager
                 userType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("RestaurantManager.Models.DataManager"));
-                userType.Activator = Activate_17_OrderDataManager;
+                userType.Activator = Activate_23_OrderDataManager;
                 userType.AddMemberName("MenuItems");
                 userType.AddMemberName("CurrentlySelectedMenuItems");
                 xamlType = userType;
                 break;
 
-            case 18:   //  RestaurantManager.UniversalWindows.OrderPage
+            case 24:   //  RestaurantManager.UniversalWindows.OrderPage
                 userType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_18_OrderPage;
+                userType.Activator = Activate_24_OrderPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
+                break;
+
+            case 25:   //  Microsoft.Xaml.Interactions.Media.ControlStoryboardAction
+                userType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_25_ControlStoryboardAction;
+                userType.AddMemberName("ControlStoryboardOption");
+                userType.AddMemberName("Storyboard");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 26:   //  Microsoft.Xaml.Interactions.Media.ControlStoryboardOption
+                userType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Play", global::Microsoft.Xaml.Interactions.Media.ControlStoryboardOption.Play);
+                userType.AddEnumValue("Stop", global::Microsoft.Xaml.Interactions.Media.ControlStoryboardOption.Stop);
+                userType.AddEnumValue("TogglePlayPause", global::Microsoft.Xaml.Interactions.Media.ControlStoryboardOption.TogglePlayPause);
+                userType.AddEnumValue("Pause", global::Microsoft.Xaml.Interactions.Media.ControlStoryboardOption.Pause);
+                userType.AddEnumValue("Resume", global::Microsoft.Xaml.Interactions.Media.ControlStoryboardOption.Resume);
+                userType.AddEnumValue("SkipToFill", global::Microsoft.Xaml.Interactions.Media.ControlStoryboardOption.SkipToFill);
+                xamlType = userType;
+                break;
+
+            case 27:   //  System.Enum
+                userType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                xamlType = userType;
+                break;
+
+            case 28:   //  Windows.UI.Xaml.Media.Animation.Storyboard
+                xamlType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 29:   //  Microsoft.Xaml.Interactions.Core.EventTriggerBehavior
+                userType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_29_EventTriggerBehavior;
+                userType.SetContentPropertyName("Microsoft.Xaml.Interactions.Core.EventTriggerBehavior.Actions");
+                userType.AddMemberName("Actions");
+                userType.AddMemberName("EventName");
+                userType.AddMemberName("SourceObject");
+                userType.AddMemberName("AssociatedObject");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 30:   //  Microsoft.Xaml.Interactivity.ActionCollection
+                userType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObjectCollection"));
+                userType.CollectionAdd = VectorAdd_30_ActionCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 31:   //  Microsoft.Xaml.Interactions.Core.GoToStateAction
+                userType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_31_GoToStateAction;
+                userType.AddMemberName("UseTransitions");
+                userType.AddMemberName("StateName");
+                userType.AddMemberName("TargetObject");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 32:   //  Windows.UI.Xaml.FrameworkElement
+                xamlType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 33:   //  Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior
+                userType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_33_IncrementalUpdateBehavior;
+                userType.AddMemberName("Phase");
+                userType.AddMemberName("AssociatedObject");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 34:   //  Microsoft.Xaml.Interactions.Core.InvokeCommandAction
+                userType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_34_InvokeCommandAction;
+                userType.AddMemberName("InputConverterLanguage");
+                userType.AddMemberName("InputConverterParameter");
+                userType.AddMemberName("InputConverter");
+                userType.AddMemberName("CommandParameter");
+                userType.AddMemberName("Command");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 35:   //  Windows.UI.Xaml.Data.IValueConverter
+                xamlType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 36:   //  System.Windows.Input.ICommand
+                userType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 37:   //  Microsoft.Xaml.Interactions.Core.NavigateToPageAction
+                userType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_37_NavigateToPageAction;
+                userType.AddMemberName("TargetPage");
+                userType.AddMemberName("Parameter");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 38:   //  Microsoft.Xaml.Interactions.Media.PlaySoundAction
+                userType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_38_PlaySoundAction;
+                userType.AddMemberName("Volume");
+                userType.AddMemberName("Source");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 39:   //  Double
+                xamlType = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
             return xamlType;
@@ -467,25 +684,243 @@ namespace RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_
             var that = (global::RestaurantManager.Models.Order)instance;
             that.Expedite = (global::System.Boolean)Value;
         }
-        private object get_11_OrderDataManager_MenuItems(object instance)
+        private object get_11_Interaction_Behaviors(object instance)
+        {
+            return global::Microsoft.Xaml.Interactivity.Interaction.GetBehaviors((global::Windows.UI.Xaml.DependencyObject)instance);
+        }
+        private void set_11_Interaction_Behaviors(object instance, object Value)
+        {
+            global::Microsoft.Xaml.Interactivity.Interaction.SetBehaviors((global::Windows.UI.Xaml.DependencyObject)instance, (global::Microsoft.Xaml.Interactivity.BehaviorCollection)Value);
+        }
+        private object get_12_RightClickMessageDialogBehavior_Message(object instance)
+        {
+            var that = (global::RestaurantManager.Extensions.RightClickMessageDialogBehavior)instance;
+            return that.Message;
+        }
+        private void set_12_RightClickMessageDialogBehavior_Message(object instance, object Value)
+        {
+            var that = (global::RestaurantManager.Extensions.RightClickMessageDialogBehavior)instance;
+            that.Message = (global::System.String)Value;
+        }
+        private object get_13_RightClickMessageDialogBehavior_Title(object instance)
+        {
+            var that = (global::RestaurantManager.Extensions.RightClickMessageDialogBehavior)instance;
+            return that.Title;
+        }
+        private void set_13_RightClickMessageDialogBehavior_Title(object instance, object Value)
+        {
+            var that = (global::RestaurantManager.Extensions.RightClickMessageDialogBehavior)instance;
+            that.Title = (global::System.String)Value;
+        }
+        private object get_14_RightClickMessageDialogBehavior_AssociatedObject(object instance)
+        {
+            var that = (global::RestaurantManager.Extensions.RightClickMessageDialogBehavior)instance;
+            return that.AssociatedObject;
+        }
+        private object get_15_OrderDataManager_MenuItems(object instance)
         {
             var that = (global::RestaurantManager.Models.OrderDataManager)instance;
             return that.MenuItems;
         }
-        private void set_11_OrderDataManager_MenuItems(object instance, object Value)
+        private void set_15_OrderDataManager_MenuItems(object instance, object Value)
         {
             var that = (global::RestaurantManager.Models.OrderDataManager)instance;
             that.MenuItems = (global::System.Collections.Generic.List<global::RestaurantManager.Models.MenuItem>)Value;
         }
-        private object get_12_OrderDataManager_CurrentlySelectedMenuItems(object instance)
+        private object get_16_OrderDataManager_CurrentlySelectedMenuItems(object instance)
         {
             var that = (global::RestaurantManager.Models.OrderDataManager)instance;
             return that.CurrentlySelectedMenuItems;
         }
-        private void set_12_OrderDataManager_CurrentlySelectedMenuItems(object instance, object Value)
+        private void set_16_OrderDataManager_CurrentlySelectedMenuItems(object instance, object Value)
         {
             var that = (global::RestaurantManager.Models.OrderDataManager)instance;
             that.CurrentlySelectedMenuItems = (global::System.Collections.Generic.List<global::RestaurantManager.Models.MenuItem>)Value;
+        }
+        private object get_17_ControlStoryboardAction_ControlStoryboardOption(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Media.ControlStoryboardAction)instance;
+            return that.ControlStoryboardOption;
+        }
+        private void set_17_ControlStoryboardAction_ControlStoryboardOption(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Media.ControlStoryboardAction)instance;
+            that.ControlStoryboardOption = (global::Microsoft.Xaml.Interactions.Media.ControlStoryboardOption)Value;
+        }
+        private object get_18_ControlStoryboardAction_Storyboard(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Media.ControlStoryboardAction)instance;
+            return that.Storyboard;
+        }
+        private void set_18_ControlStoryboardAction_Storyboard(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Media.ControlStoryboardAction)instance;
+            that.Storyboard = (global::Windows.UI.Xaml.Media.Animation.Storyboard)Value;
+        }
+        private object get_19_EventTriggerBehavior_Actions(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior)instance;
+            return that.Actions;
+        }
+        private object get_20_EventTriggerBehavior_EventName(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior)instance;
+            return that.EventName;
+        }
+        private void set_20_EventTriggerBehavior_EventName(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior)instance;
+            that.EventName = (global::System.String)Value;
+        }
+        private object get_21_EventTriggerBehavior_SourceObject(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior)instance;
+            return that.SourceObject;
+        }
+        private void set_21_EventTriggerBehavior_SourceObject(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior)instance;
+            that.SourceObject = (global::System.Object)Value;
+        }
+        private object get_22_EventTriggerBehavior_AssociatedObject(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior)instance;
+            return that.AssociatedObject;
+        }
+        private object get_23_GoToStateAction_UseTransitions(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.GoToStateAction)instance;
+            return that.UseTransitions;
+        }
+        private void set_23_GoToStateAction_UseTransitions(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.GoToStateAction)instance;
+            that.UseTransitions = (global::System.Boolean)Value;
+        }
+        private object get_24_GoToStateAction_StateName(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.GoToStateAction)instance;
+            return that.StateName;
+        }
+        private void set_24_GoToStateAction_StateName(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.GoToStateAction)instance;
+            that.StateName = (global::System.String)Value;
+        }
+        private object get_25_GoToStateAction_TargetObject(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.GoToStateAction)instance;
+            return that.TargetObject;
+        }
+        private void set_25_GoToStateAction_TargetObject(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.GoToStateAction)instance;
+            that.TargetObject = (global::Windows.UI.Xaml.FrameworkElement)Value;
+        }
+        private object get_26_IncrementalUpdateBehavior_Phase(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior)instance;
+            return that.Phase;
+        }
+        private void set_26_IncrementalUpdateBehavior_Phase(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior)instance;
+            that.Phase = (global::System.Int32)Value;
+        }
+        private object get_27_IncrementalUpdateBehavior_AssociatedObject(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior)instance;
+            return that.AssociatedObject;
+        }
+        private object get_28_InvokeCommandAction_InputConverterLanguage(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            return that.InputConverterLanguage;
+        }
+        private void set_28_InvokeCommandAction_InputConverterLanguage(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            that.InputConverterLanguage = (global::System.String)Value;
+        }
+        private object get_29_InvokeCommandAction_InputConverterParameter(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            return that.InputConverterParameter;
+        }
+        private void set_29_InvokeCommandAction_InputConverterParameter(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            that.InputConverterParameter = (global::System.Object)Value;
+        }
+        private object get_30_InvokeCommandAction_InputConverter(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            return that.InputConverter;
+        }
+        private void set_30_InvokeCommandAction_InputConverter(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            that.InputConverter = (global::Windows.UI.Xaml.Data.IValueConverter)Value;
+        }
+        private object get_31_InvokeCommandAction_CommandParameter(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            return that.CommandParameter;
+        }
+        private void set_31_InvokeCommandAction_CommandParameter(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            that.CommandParameter = (global::System.Object)Value;
+        }
+        private object get_32_InvokeCommandAction_Command(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            return that.Command;
+        }
+        private void set_32_InvokeCommandAction_Command(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            that.Command = (global::System.Windows.Input.ICommand)Value;
+        }
+        private object get_33_NavigateToPageAction_TargetPage(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction)instance;
+            return that.TargetPage;
+        }
+        private void set_33_NavigateToPageAction_TargetPage(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction)instance;
+            that.TargetPage = (global::System.String)Value;
+        }
+        private object get_34_NavigateToPageAction_Parameter(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction)instance;
+            return that.Parameter;
+        }
+        private void set_34_NavigateToPageAction_Parameter(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction)instance;
+            that.Parameter = (global::System.Object)Value;
+        }
+        private object get_35_PlaySoundAction_Volume(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Media.PlaySoundAction)instance;
+            return that.Volume;
+        }
+        private void set_35_PlaySoundAction_Volume(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Media.PlaySoundAction)instance;
+            that.Volume = (global::System.Double)Value;
+        }
+        private object get_36_PlaySoundAction_Source(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Media.PlaySoundAction)instance;
+            return that.Source;
+        }
+        private void set_36_PlaySoundAction_Source(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Media.PlaySoundAction)instance;
+            that.Source = (global::System.String)Value;
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
@@ -561,17 +996,181 @@ namespace RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_
                 xamlMember.Getter = get_10_Order_Expedite;
                 xamlMember.Setter = set_10_Order_Expedite;
                 break;
+            case "Microsoft.Xaml.Interactivity.Interaction.Behaviors":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactivity.Interaction");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "Behaviors", "Microsoft.Xaml.Interactivity.BehaviorCollection");
+                xamlMember.SetTargetTypeName("Windows.UI.Xaml.DependencyObject");
+                xamlMember.SetIsAttachable();
+                xamlMember.Getter = get_11_Interaction_Behaviors;
+                xamlMember.Setter = set_11_Interaction_Behaviors;
+                break;
+            case "RestaurantManager.Extensions.RightClickMessageDialogBehavior.Message":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantManager.Extensions.RightClickMessageDialogBehavior");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "Message", "String");
+                xamlMember.Getter = get_12_RightClickMessageDialogBehavior_Message;
+                xamlMember.Setter = set_12_RightClickMessageDialogBehavior_Message;
+                break;
+            case "RestaurantManager.Extensions.RightClickMessageDialogBehavior.Title":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantManager.Extensions.RightClickMessageDialogBehavior");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "Title", "String");
+                xamlMember.Getter = get_13_RightClickMessageDialogBehavior_Title;
+                xamlMember.Setter = set_13_RightClickMessageDialogBehavior_Title;
+                break;
+            case "RestaurantManager.Extensions.RightClickMessageDialogBehavior.AssociatedObject":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantManager.Extensions.RightClickMessageDialogBehavior");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "AssociatedObject", "Windows.UI.Xaml.DependencyObject");
+                xamlMember.Getter = get_14_RightClickMessageDialogBehavior_AssociatedObject;
+                xamlMember.SetIsReadOnly();
+                break;
             case "RestaurantManager.Models.OrderDataManager.MenuItems":
                 userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantManager.Models.OrderDataManager");
                 xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "MenuItems", "System.Collections.Generic.List`1<RestaurantManager.Models.MenuItem>");
-                xamlMember.Getter = get_11_OrderDataManager_MenuItems;
-                xamlMember.Setter = set_11_OrderDataManager_MenuItems;
+                xamlMember.Getter = get_15_OrderDataManager_MenuItems;
+                xamlMember.Setter = set_15_OrderDataManager_MenuItems;
                 break;
             case "RestaurantManager.Models.OrderDataManager.CurrentlySelectedMenuItems":
                 userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantManager.Models.OrderDataManager");
                 xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "CurrentlySelectedMenuItems", "System.Collections.Generic.List`1<RestaurantManager.Models.MenuItem>");
-                xamlMember.Getter = get_12_OrderDataManager_CurrentlySelectedMenuItems;
-                xamlMember.Setter = set_12_OrderDataManager_CurrentlySelectedMenuItems;
+                xamlMember.Getter = get_16_OrderDataManager_CurrentlySelectedMenuItems;
+                xamlMember.Setter = set_16_OrderDataManager_CurrentlySelectedMenuItems;
+                break;
+            case "Microsoft.Xaml.Interactions.Media.ControlStoryboardAction.ControlStoryboardOption":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Media.ControlStoryboardAction");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "ControlStoryboardOption", "Microsoft.Xaml.Interactions.Media.ControlStoryboardOption");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_17_ControlStoryboardAction_ControlStoryboardOption;
+                xamlMember.Setter = set_17_ControlStoryboardAction_ControlStoryboardOption;
+                break;
+            case "Microsoft.Xaml.Interactions.Media.ControlStoryboardAction.Storyboard":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Media.ControlStoryboardAction");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "Storyboard", "Windows.UI.Xaml.Media.Animation.Storyboard");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_18_ControlStoryboardAction_Storyboard;
+                xamlMember.Setter = set_18_ControlStoryboardAction_Storyboard;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior.Actions":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.EventTriggerBehavior");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "Actions", "Microsoft.Xaml.Interactivity.ActionCollection");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_19_EventTriggerBehavior_Actions;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior.EventName":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.EventTriggerBehavior");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "EventName", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_20_EventTriggerBehavior_EventName;
+                xamlMember.Setter = set_20_EventTriggerBehavior_EventName;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior.SourceObject":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.EventTriggerBehavior");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "SourceObject", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_21_EventTriggerBehavior_SourceObject;
+                xamlMember.Setter = set_21_EventTriggerBehavior_SourceObject;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior.AssociatedObject":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.EventTriggerBehavior");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "AssociatedObject", "Windows.UI.Xaml.DependencyObject");
+                xamlMember.Getter = get_22_EventTriggerBehavior_AssociatedObject;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.Xaml.Interactions.Core.GoToStateAction.UseTransitions":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.GoToStateAction");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "UseTransitions", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_23_GoToStateAction_UseTransitions;
+                xamlMember.Setter = set_23_GoToStateAction_UseTransitions;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.GoToStateAction.StateName":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.GoToStateAction");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "StateName", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_24_GoToStateAction_StateName;
+                xamlMember.Setter = set_24_GoToStateAction_StateName;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.GoToStateAction.TargetObject":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.GoToStateAction");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "TargetObject", "Windows.UI.Xaml.FrameworkElement");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_25_GoToStateAction_TargetObject;
+                xamlMember.Setter = set_25_GoToStateAction_TargetObject;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior.Phase":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "Phase", "Int32");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_26_IncrementalUpdateBehavior_Phase;
+                xamlMember.Setter = set_26_IncrementalUpdateBehavior_Phase;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior.AssociatedObject":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "AssociatedObject", "Windows.UI.Xaml.DependencyObject");
+                xamlMember.Getter = get_27_IncrementalUpdateBehavior_AssociatedObject;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.Xaml.Interactions.Core.InvokeCommandAction.InputConverterLanguage":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.InvokeCommandAction");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "InputConverterLanguage", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_28_InvokeCommandAction_InputConverterLanguage;
+                xamlMember.Setter = set_28_InvokeCommandAction_InputConverterLanguage;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.InvokeCommandAction.InputConverterParameter":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.InvokeCommandAction");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "InputConverterParameter", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_29_InvokeCommandAction_InputConverterParameter;
+                xamlMember.Setter = set_29_InvokeCommandAction_InputConverterParameter;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.InvokeCommandAction.InputConverter":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.InvokeCommandAction");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "InputConverter", "Windows.UI.Xaml.Data.IValueConverter");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_30_InvokeCommandAction_InputConverter;
+                xamlMember.Setter = set_30_InvokeCommandAction_InputConverter;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.InvokeCommandAction.CommandParameter":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.InvokeCommandAction");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "CommandParameter", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_31_InvokeCommandAction_CommandParameter;
+                xamlMember.Setter = set_31_InvokeCommandAction_CommandParameter;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.InvokeCommandAction.Command":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.InvokeCommandAction");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "Command", "System.Windows.Input.ICommand");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_32_InvokeCommandAction_Command;
+                xamlMember.Setter = set_32_InvokeCommandAction_Command;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.NavigateToPageAction.TargetPage":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.NavigateToPageAction");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "TargetPage", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_33_NavigateToPageAction_TargetPage;
+                xamlMember.Setter = set_33_NavigateToPageAction_TargetPage;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.NavigateToPageAction.Parameter":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.NavigateToPageAction");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "Parameter", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_34_NavigateToPageAction_Parameter;
+                xamlMember.Setter = set_34_NavigateToPageAction_Parameter;
+                break;
+            case "Microsoft.Xaml.Interactions.Media.PlaySoundAction.Volume":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Media.PlaySoundAction");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "Volume", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_35_PlaySoundAction_Volume;
+                xamlMember.Setter = set_35_PlaySoundAction_Volume;
+                break;
+            case "Microsoft.Xaml.Interactions.Media.PlaySoundAction.Source":
+                userType = (global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Media.PlaySoundAction");
+                xamlMember = new global::RestaurantManager.UniversalWindows.RestaurantManager_UniversalWindows_XamlTypeInfo.XamlMember(this, "Source", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_36_PlaySoundAction_Source;
+                xamlMember.Setter = set_36_PlaySoundAction_Source;
                 break;
             }
             return xamlMember;
