@@ -1,0 +1,16 @@
+C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Extensions\bin\Debug\RestaurantManager.Extensions.dll
+C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Extensions\bin\Debug\RestaurantManager.Extensions.pdb
+C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Extensions\bin\Debug\RestaurantManager.Extensions.pri
+C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\RestaurantManager.Extensions.dll
+C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\RestaurantManager.Extensions.pdb
+C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\priconfig.xml
+C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\priconfig.xml.intermediate
+C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\layout.resfiles
+C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\layout.resfiles.intermediate
+C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\resources.resfiles
+C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\resources.resfiles.intermediate
+C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\pri.resfiles
+C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\pri.resfiles.intermediate
+C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\qualifiers.txt
+C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\qualifiers.txt.intermediate
+C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\MultipleQualifiersPerDimensionFound.txt

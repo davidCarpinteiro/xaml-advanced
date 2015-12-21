@@ -53,9 +53,9 @@
     <Extension Category="windows.activatableClass.inProcessServer">
       <InProcessServer>
         <Path>Microsoft.Xaml.Interactivity.dll</Path>
-        <ActivatableClass ActivatableClassId="Microsoft.Xaml.Interactivity.VisualStateUtilities" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.Xaml.Interactivity.ActionCollection" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.Xaml.Interactivity.BehaviorCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xaml.Interactivity.ActionCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xaml.Interactivity.VisualStateUtilities" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.Xaml.Interactivity.Interaction" ThreadingModel="both" />
       </InProcessServer>
     </Extension>
@@ -63,7 +63,7 @@
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
     <build:Item Name="VisualStudio" Version="14.0" />
-    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2015" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Professional 2015" />
     <build:Item Name="OperatingSystem" Version="10.0.10586.0 (th2_release.151029-1700)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.24720.0" />
     <build:Item Name="ProjectGUID" Value="{15039095-DCCC-4AED-8757-C2DB14B96088}" />
