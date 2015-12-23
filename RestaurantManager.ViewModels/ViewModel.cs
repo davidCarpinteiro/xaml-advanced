@@ -1,13 +1,14 @@
-﻿using System.ComponentModel;
+﻿using RestaurantManager.Models;
+using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace RestaurantManager.Models
+namespace RestaurantManager.ViewModels
 {
-    public abstract class DataManager : INotifyPropertyChanged
+    public abstract class ViewModel : INotifyPropertyChanged
     {
         protected RestaurantContext Repository { get; private set; }
 
-        public DataManager()
+        public ViewModel()
         {
             LoadData();
         }
@@ -16,8 +17,7 @@ namespace RestaurantManager.Models
 
         private async void LoadData()
         {
-            this.Repository = new RestaurantContext();
-            await this.Repository.InitializeContextAsync();
+            this.Repository = await RestaurantContextFactory.GetRestaurantContextAsync();
             OnDataLoaded();
         }
 

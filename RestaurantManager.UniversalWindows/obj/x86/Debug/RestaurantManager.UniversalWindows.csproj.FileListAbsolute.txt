@@ -1306,3 +1306,6 @@ C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.UniversalWin
 C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.UniversalWindows\obj\x86\Debug\RestaurantManager.UniversalWindows.csproj.GenerateResource.Cache
 C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.UniversalWindows\obj\x86\Debug\Microsoft.Xaml.Interactions.pri.xml
 C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.UniversalWindows\obj\x86\Debug\Microsoft.Xaml.Interactivity.pri.xml
+C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.UniversalWindows\bin\x86\Debug\RestaurantManager.ViewModels.dll
+C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.UniversalWindows\bin\x86\Debug\RestaurantManager.ViewModels.pdb
+C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.UniversalWindows\bin\x86\Debug\RestaurantManager.ViewModels.pri

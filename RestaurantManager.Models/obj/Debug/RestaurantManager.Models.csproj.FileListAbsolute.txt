@@ -64,3 +64,4 @@ E:\GitWorkspace\xaml-advanced\xaml-advanced\RestaurantManager.Models\obj\Debug\p
 E:\GitWorkspace\xaml-advanced\xaml-advanced\RestaurantManager.Models\obj\Debug\qualifiers.txt
 E:\GitWorkspace\xaml-advanced\xaml-advanced\RestaurantManager.Models\obj\Debug\qualifiers.txt.intermediate
 E:\GitWorkspace\xaml-advanced\xaml-advanced\RestaurantManager.Models\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Models\obj\Debug\RestaurantManager.Models.csprojResolveAssemblyReference.cache
