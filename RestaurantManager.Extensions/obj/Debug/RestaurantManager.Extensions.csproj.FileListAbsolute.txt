@@ -14,3 +14,20 @@ C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Extensions\o
 C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\qualifiers.txt
 C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\qualifiers.txt.intermediate
 C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\GitWorkspace\xaml-advanced\RestaurantManager.Extensions\bin\Debug\RestaurantManager.Extensions.dll
+E:\GitWorkspace\xaml-advanced\RestaurantManager.Extensions\bin\Debug\RestaurantManager.Extensions.pdb
+E:\GitWorkspace\xaml-advanced\RestaurantManager.Extensions\bin\Debug\RestaurantManager.Extensions.pri
+E:\GitWorkspace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\RestaurantManager.Extensions.csprojResolveAssemblyReference.cache
+E:\GitWorkspace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\RestaurantManager.Extensions.dll
+E:\GitWorkspace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\RestaurantManager.Extensions.pdb
+E:\GitWorkspace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\priconfig.xml
+E:\GitWorkspace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\priconfig.xml.intermediate
+E:\GitWorkspace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\layout.resfiles
+E:\GitWorkspace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\layout.resfiles.intermediate
+E:\GitWorkspace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\resources.resfiles
+E:\GitWorkspace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\resources.resfiles.intermediate
+E:\GitWorkspace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\pri.resfiles
+E:\GitWorkspace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\pri.resfiles.intermediate
+E:\GitWorkspace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\qualifiers.txt
+E:\GitWorkspace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\qualifiers.txt.intermediate
+E:\GitWorkspace\xaml-advanced\RestaurantManager.Extensions\obj\Debug\MultipleQualifiersPerDimensionFound.txt

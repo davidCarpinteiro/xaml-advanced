@@ -8,6 +8,9 @@ namespace RestaurantManager.UniversalWindows
         public MainPage()
         {
             this.InitializeComponent();
+
+            SlideLeftToRight.Begin();
+            SlideRightToLeft.Begin();
         }
 
         private void ExpeditePage_Click(object sender, RoutedEventArgs e)

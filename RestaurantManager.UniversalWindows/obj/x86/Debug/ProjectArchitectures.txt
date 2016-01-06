@@ -1,5 +1,5 @@
-C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Extensions\RestaurantManager.Extensions.csproj;neutral
-C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Models\RestaurantManager.Models.csproj;neutral
-C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.Models\RestaurantManager.Models.csproj;neutral
-C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.csproj;x86
-C:\AREA DE TRABALHO\GitHubWorkplace\xaml-advanced\RestaurantManager.ViewModels\RestaurantManager.ViewModels.csproj;neutral
+E:\GitWorkspace\xaml-advanced\RestaurantManager.Extensions\RestaurantManager.Extensions.csproj;neutral
+E:\GitWorkspace\xaml-advanced\RestaurantManager.Models\RestaurantManager.Models.csproj;neutral
+E:\GitWorkspace\xaml-advanced\RestaurantManager.Models\RestaurantManager.Models.csproj;neutral
+E:\GitWorkspace\xaml-advanced\RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.csproj;x86
+E:\GitWorkspace\xaml-advanced\RestaurantManager.ViewModels\RestaurantManager.ViewModels.csproj;neutral

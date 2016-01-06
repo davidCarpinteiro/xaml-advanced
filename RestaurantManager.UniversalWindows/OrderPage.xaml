@@ -35,6 +35,7 @@
             <RowDefinition Height="0.10*" />
             <RowDefinition Height="0.10*" />
         </Grid.RowDefinitions>
+        <ProgressRing Grid.Row="2" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="3" IsActive="{Binding IsLoading}" />
         <TextBlock Grid.Row="2" Grid.Column="1" Text="Special Requests:" />
         <TextBlock Grid.Row="2" Grid.Column="2" Text="Order Items:" />
         <TextBox Grid.Row="3" Grid.Column="1" Name="SpecialRequests" Text="{Binding SpecialRequests, Mode=TwoWay}" />
